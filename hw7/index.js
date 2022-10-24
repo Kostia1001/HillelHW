@@ -1,4 +1,4 @@
-let num = +prompt()
+let num = +prompt('enter the number')
 if (num > 0) {
     alert(1)
 } else if (num < 0) {
