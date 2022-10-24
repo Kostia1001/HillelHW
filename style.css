@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif
+}
+
+.student_name{
+    text-align: center;
+
+    padding-top:3%;
+}
+
+.hw_list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    
+    list-style: none;
+
+    padding:5% 0;
+}
+
+.hw_list__item{
+    height: 70px;
+    width: 20%;    
+    border-radius: 25%;
+}
+
+.hw_list__item{
+    margin: 20px;
+}
+
+.hw_list__link{
+    text-decoration: none;
+
+    display: block;
+    height: 100%;
+    
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: rgb(183, 173, 173);
+    border: solid 3px rgb(106, 89, 89);
+
+    color:rgb(24, 0, 0);
+    font-size: 17pt;
+    font-weight: 700;
+}
