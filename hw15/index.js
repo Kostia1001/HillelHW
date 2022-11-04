@@ -5,10 +5,14 @@ const salaries = {
 }
 let sum = 0;
 
-if(salaries !== {}) {
-    for (let key in salaries) { 
-        sum += salaries[key]
-    }    
-}
+const sumItem = objSum => Object.values(objSum).reduce((accum, elem) => objSum !== {} ? sum = accum + elem : 0)
+sumItem(salaries)
 
 console.log(sum)
+
+//   });
+// if(salaries !== {}) {
+//     for (let key in salaries) { 
+//         sum += salaries[key]
+//     }    
+// }
