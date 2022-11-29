@@ -2,7 +2,7 @@ const url1 = 'https://jsonplaceholder.typicode.com/posts'
 
 const getData = async (url) => {
     const responce = await fetch(url)
-   return responce.json()
+    return responce.json()
 
 }
 
