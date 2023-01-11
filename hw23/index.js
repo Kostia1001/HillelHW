@@ -2,7 +2,7 @@ let questionAge = prompt('ваш рік народження')
 if (questionAge == null) {
     questionAge = 'Шкода що ви не захотіли ввести свій рік народження '
     alert(questionAge)
-}else {
+} else {
     alert(questionAge)
 }
 
@@ -38,9 +38,3 @@ if (questionSport == null) {
 } else {
     alert(questionSport)
 }
-
-
-
-
-
-
