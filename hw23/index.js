@@ -1,40 +1,62 @@
 let questionAge = prompt('ваш рік народження')
-if (questionAge == null) {
-    questionAge = 'Шкода що ви не захотіли ввести свій рік народження '
-    alert(questionAge)
-} else {
-    alert(questionAge)
+
+switch (questionAge) {
+    case null: {
+        questionAge = 'Шкода що ви не захотіли ввести свій рік народження '
+        alert(questionAge)
+        break
+    }
+    default: {
+        alert(questionAge)
+        break
+    }
 }
-
 let questionCity = prompt('ваше місто?')
-if (questionCity == null) {
-    questionCity = 'Шкода що ви не захотіли ввести своє місто'
-    alert(questionCity)
 
-} else if (questionCity == 'Київ' || questionCity == 'Вашингтон' || questionCity == 'Лондон') {
-    questionCity = `Ти живеш у столиці ${questionCity}`
-    alert(questionCity)
-} else {
-    questionCity = `ти живеш у місті ${questionCity}`
-    alert(questionCity)
+switch (questionCity) {
+    case null: {
+        alert(questionCity = 'Шкода що ви не захотіли ввести свій рік народження ')
+        break
+    }
+    case 'Київ': {
+        alert(questionCity = `Ти живеш у столиці ${questionCity}`)
+        break
+    }
+    case 'Вашингтон': {
+        alert(questionCity = `Ти живеш у столиці ${questionCity}`)
+        break
+    }
+    case 'Лондон': {
+        alert(questionCity = `Ти живеш у столиці ${questionCity}`)
+        break
+    }
+    default: {
+        alert(questionCity = `ти живеш у місті ${questionCity}`)
+        break
+    }
 }
 
 let questionSport = prompt('ваш улюблений спорт')
-if (questionSport == null) {
-    questionSport = 'Шкода що ви не захотіли ввести свой улюблений спорт'
-    alert(questionSport)
 
-} else if (questionSport == 'футбол') {
-    questionSport = 'Круто!Хочеш стати як Ліонель Мессі?'
-    alert(questionSport)
-
-} else if (questionSport == 'бокс') {
-    questionSport = 'Круто!Хочеш стати як Віталій Клічко?'
-    alert(questionSport)
-
-} else if (questionSport == 'баскетбол') {
-    questionSport = 'Круто!Хочеш стати як Леброн Джеймс?'
-    alert(questionSport)
-} else {
-    alert(questionSport)
+switch (questionSport) {
+    case null: {
+        alert(questionSport = 'Шкода що ви не захотіли ввести свой улюблений спорт')
+        break
+    }
+    case 'футбол': {
+        alert(questionSport = 'Круто!Хочеш стати як Ліонель Мессі?')
+        break
+    }
+    case 'бокс': {
+        alert(questionSport = 'Круто!Хочеш стати як Віталій Клічко?')
+        break
+    }
+    case 'баскетбол': {
+        alert(questionSport = 'Круто!Хочеш стати як Леброн Джеймс?')
+        break
+    }
+    default: {
+        alert(questionSport = `твій улюблений спорт ${questionSport}`)
+        break
+    }
 }
