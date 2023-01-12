@@ -70,4 +70,26 @@
 // console.log(sum)
 
 // Дано натуральне число. Знайти та вивести на сторінку всі його дільники.
+// Визначити кількість його парних дільників.
+// Знайти суму його парних дільників.
+// let n = 10;
+// let amountDividers = 0;
+// let amountDividersSum = 0;
+// for (let i = 1; i <= n; i++) {
+//     if (n % i == 0) {
+//         document.write(i == n ? `${i}` : `${i},`)
+//         if (i % 2 == 0) {
+//             amountDividers++
+//             amountDividersSum += i
+//         }
+//     }
+// }
+// document.write(`количество ${amountDividers} сумма ${amountDividersSum}`)
 
+// Надрукувати повну таблицю множення від 1 до 10.
+// for (let i = 1; i <= 10; i++) {
+//     for (let j = 1; j <= 10; j++) {
+//         document.write(`${j} * ${i} = ${j * i} <br>`)
+//     }
+//     document.write(`<br>`)
+// }
