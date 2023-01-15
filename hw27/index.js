@@ -1,8 +1,6 @@
 function unique(arr) {
     const set = new Set(arr)
-    let uniqueArr = []
-    set.forEach(e => {uniqueArr.push(e)})
-    return uniqueArr
+    return Array.from(set)
 }
 let values = ["Hare", "Krishna", "Hare", "Krishna",
     "Krishna", "Krishna", "Hare", "Hare", ":-O"
