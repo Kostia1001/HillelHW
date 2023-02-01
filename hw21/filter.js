@@ -65,9 +65,7 @@ displayProducts(data)
 inputSearch.addEventListener("keyup", (event) => {
     const value = event.target.value.toLowerCase()
     if (value) {
-
         const filteredArray = data.filter(elem => elem.name.toLowerCase().includes(value))
-
         displayProducts(filteredArray)
     } else {
         displayProducts(data)
@@ -87,7 +85,7 @@ const setCategories = () => {
         const selectedCategory = event.target.textContent;
 
         if (selectedCategory) {
-            
+
             const sortedProductsByCategory = data.filter(product => product.category === selectedCategory)
 
             displayProducts(sortedProductsByCategory)
